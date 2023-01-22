@@ -84,3 +84,38 @@ input {
 .donate-taka-btn {
   margin: 0 0 7% 45%;
 }
+
+/* Donate plan */
+
+.plan {
+  text-align: center;
+}
+
+.plan h1 {
+  font-size: 2rem;
+}
+
+.feature-plan {
+  height: 250px;
+  width: 30%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.food {
+  background-color: rgb(196, 248, 252);
+}
+
+.shelter {
+  background-color: rgb(248, 220, 197);
+}
+
+.education {
+  background-color: rgb(244, 252, 209);
+}
+
+.feature-list {
+  display: flex;
+  margin: 0 10% 3% 10%;
+}
