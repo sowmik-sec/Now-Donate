@@ -19,7 +19,7 @@ body {
   margin: 5px 0px 5px 0px;
 }
 
-button {
+.btn {
   background-color: tomato;
   border: 0;
   padding: 1%;
@@ -62,18 +62,17 @@ button {
   margin-left: 25%;
 }
 
-input {
+.input-amount {
   border-top-style: none;
   border-left-style: none;
   border-right-style: none;
 }
 
-#input-amount:focus,
-#input-amount:focus {
+.input-amount:focus {
   outline: none;
 }
 
-#input-amount {
+.input-amount {
   text-align: center;
 }
 
@@ -118,4 +117,93 @@ input {
 .feature-list {
   display: flex;
   margin: 0 10% 3% 10%;
+}
+
+/* Humanity News */
+
+.news {
+  margin-top: 100px;
+}
+
+.half-width {
+  width: 40%;
+}
+
+.half-width img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.humanity {
+  display: flex;
+}
+
+.relief {
+  margin: 1% 2% 3% 10%;
+  padding: 25px 20px 0px 10px;
+}
+
+.relief h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.hunger {
+  margin: 130px 20px 150px 150px;
+}
+
+/* Update */
+.update {
+  text-align: center;
+}
+
+.update h1 {
+  font-size: 2rem;
+}
+
+.email {
+  background-color: rgb(250, 226, 206);
+  text-align: center;
+  margin: 2% 20% 7% 20%;
+  padding: 5% 10%;
+  border-radius: 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  margin-bottom: 0px;
+  color: white;
+  padding: 3%;
+}
+
+footer h1 {
+  color: tomato;
+  font-family: "Lobster", cursive;
+}
+
+.input-email {
+  border-style: none;
+  height: 40px;
+  width: 250px;
+  background-color: rgb(218, 215, 215);
+  padding-left: 10px;
+  margin-right: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.input-email:focus {
+  outline: none;
+}
+
+#sub-btn {
+  height: 40px;
+  margin-left: 0px;
+  width: 150px;
+  border-style: none;
+  background-color: tomato;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
